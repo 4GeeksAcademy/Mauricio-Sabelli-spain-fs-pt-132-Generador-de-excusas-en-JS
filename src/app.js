@@ -7,13 +7,14 @@ import "./assets/img/4geeks.ico";
 
 window.onload = function () {
 
+const randomNumberGenerator = (arraysDelGenerador) => Math.floor(Math.random() * arraysDelGenerador.length)
+const randomPhraseFromArrays = (arraysDelGenerador) => arraysDelGenerador[randomNumberGenerator(arraysDelGenerador)]
 
+const who = ['Mi vecino', 'Mi esposa', 'Mi cuñao', 'Mi mujer', 'Mi suegra'];
+const action = ['tiró', 'pateó', 'deshizo', 'quemó'];
+const what = ['mi ordenador', 'mi móvil', 'mi ropa', 'mis pantalones'];
+const where = ['en el patio', 'en la cama', 'en la mesa', 'en el coche', 'en mi cara'];
 
-  let who = ['The dog', 'My grandma', 'The mailman', 'My bird'];
-  let action = ['ate', 'peed', 'crushed', 'broke'];
-  let what = ['my homework', 'my phone', 'the car'];
-  let when = ['before the class', 'when I was sleeping', 'while I was exercising', 'during my lunch', 'while I was praying'];
-  let where = ['before the class', 'when I was sleeping', 'while I was exercising', 'during my lunch', 'while I was praying'];
-
+who.forEach((el, i)=> who[i])
 
 };
