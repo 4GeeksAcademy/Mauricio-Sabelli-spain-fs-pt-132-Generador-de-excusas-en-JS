@@ -14,12 +14,25 @@
       crossorigin="anonymous"
     />
   </head>
-  <body>
-    <!-- Write your HTML code here, you can delete everything withing the body tags -->
-     
-    <p>hola mundo</p>
+  <body class="bg-light">
 
-    <!-- Do not delete this script tag, this is what connects your HTML with the Javascript code -->
-    <script type="module" src="/app.js"></script>
-  </body>
+  <div class="container vh-100 d-flex justify-content-center align-items-center">
+    
+    <div class="text-center">
+
+      <h1 class="mb-4">Generador de Excusas</h1>  
+
+      <p id="excuse" class="fs-4 mb-4"></p>
+
+      <button id="btnExcusa" class="btn btn-primary btn-lg">
+        Generar nueva excusa
+      </button>
+
+    </div>
+
+  </div>
+
+  <script type="module" src="/app.js"></script>
+
+</body>
 </html>
