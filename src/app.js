@@ -8,9 +8,9 @@ import "./assets/img/4geeks.ico";
 window.onload = function () {
 
   const who = ['Mami', 'Bebé', 'Mi amol', 'Mi gata'];
-  const action = ['yo quiero', 'yo puedo', 'yo vengo', 'voy a'];
+  const action = ['yo quiero', 'yo puedo', 'yo vengo a', 'voy a'];
   const what = ['encendelte', 'amalte', 'bailar', 'jugal'];
-  const how = ['suave', 'lento', 'rapido', 'fuelte'];
+  const how = ['suave', 'lento', 'rápido', 'fuelte'];
   const when = ['hasta que salga el sol', 'toda la noche', 'hasta el amanecel', 'todo el día'];
   const sound = ['yeah yeah', 'ohh ohh', 'bum bum', 'ehh ehh']
 
